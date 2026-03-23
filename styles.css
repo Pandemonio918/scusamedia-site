@@ -294,12 +294,26 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 .logo-item {
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+.logo-item:hover { opacity: 1; }
+.logo-item img {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+.logo-item.logo-text {
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  opacity: 0.6;
   color: var(--white);
 }
 
@@ -792,16 +806,35 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   overflow: hidden;
   background: var(--bg-3);
 }
-.testimonial-video { aspect-ratio: 9/16; max-height: 400px; overflow: hidden; }
-.video-placeholder {
-  width: 100%; height: 100%;
-  background: linear-gradient(135deg, var(--bg-3), var(--bg-4));
+.testimonial-video {
+  aspect-ratio: 9/16;
+  max-height: 400px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  background: var(--bg-4);
+}
+.testimonial-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.testimonial-video::after {
+  content: '';
+  position: absolute;
+  inset: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text-muted);
-  font-size: 0.85rem;
+  background: rgba(0,0,0,0.3);
+  transition: opacity 0.3s;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24' fill='white'%3E%3Cpolygon points='5 3 19 12 5 21 5 3'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 48px;
 }
+.testimonial-video.playing::after { opacity: 0; }
 .testimonial-info {
   padding: 16px;
   display: flex;

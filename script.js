@@ -89,6 +89,27 @@ document.querySelectorAll('.tab').forEach(tab => {
   });
 });
 
+// ===== VIDEO TESTIMONIALS =====
+document.querySelectorAll('.testimonial-video').forEach(wrapper => {
+  wrapper.addEventListener('click', () => {
+    const video = wrapper.querySelector('video');
+    if (!video) return;
+    if (video.paused) {
+      // Pause all others
+      document.querySelectorAll('.testimonial-video video').forEach(v => {
+        v.pause();
+        v.closest('.testimonial-video').classList.remove('playing');
+      });
+      video.muted = false;
+      video.play();
+      wrapper.classList.add('playing');
+    } else {
+      video.pause();
+      wrapper.classList.remove('playing');
+    }
+  });
+});
+
 // ===== SCROLL REVEAL =====
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
