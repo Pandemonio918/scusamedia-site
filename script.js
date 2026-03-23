@@ -30,17 +30,17 @@ window.addEventListener('scroll', () => {
   lastScroll = currentScroll;
 });
 
-// ===== ACCORDION =====
-document.querySelectorAll('.accordion-header').forEach(btn => {
+// ===== SERVICES ACCORDION =====
+document.querySelectorAll('.svc-header').forEach(btn => {
   btn.addEventListener('click', () => {
-    const item = btn.parentElement;
-    const body = item.querySelector('.accordion-body');
+    const item = btn.closest('.svc-item');
+    const body = item.querySelector('.svc-body');
     const isActive = item.classList.contains('active');
 
     // Close all
-    document.querySelectorAll('.accordion-item').forEach(i => {
+    document.querySelectorAll('.svc-item').forEach(i => {
       i.classList.remove('active');
-      i.querySelector('.accordion-body').style.maxHeight = null;
+      i.querySelector('.svc-body').style.maxHeight = null;
     });
 
     // Open clicked if wasn't active
@@ -79,7 +79,7 @@ document.querySelectorAll('.tab').forEach(tab => {
     tab.classList.add('active');
 
     const filter = tab.dataset.filter;
-    document.querySelectorAll('.case-card').forEach(card => {
+    document.querySelectorAll('.cs-card').forEach(card => {
       if (filter === 'all' || card.dataset.type.includes(filter)) {
         card.style.display = 'block';
       } else {
