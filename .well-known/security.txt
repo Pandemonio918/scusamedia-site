@@ -1,0 +1,5 @@
+Contact: mailto:info@scusamedia.com
+Contact: tel:+1-586-800-3734
+Expires: 2027-03-23T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://scusamedia.com/.well-known/security.txt

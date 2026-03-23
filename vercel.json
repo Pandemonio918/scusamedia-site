@@ -1,6 +1,21 @@
 {
   "buildCommand": "",
   "outputDirectory": ".",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' https://link.msgsndr.com https://stcdn.leadconnectorhq.com https://storage.googleapis.com https://connect.facebook.net https://www.google.com https://www.gstatic.com 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com https://stcdn.leadconnectorhq.com 'unsafe-inline'; font-src https://fonts.gstatic.com; frame-src https://api.leadconnectorhq.com https://www.google.com; connect-src 'self' https://backend.leadconnectorhq.com https://api.leadconnectorhq.com; img-src 'self' https://www.gstatic.com data:"
+        }
+      ]
+    }
+  ],
   "redirects": [
     { "source": "/about", "destination": "/#who-we-serve", "permanent": true },
     { "source": "/services", "destination": "/#services", "permanent": true },
