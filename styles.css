@@ -306,7 +306,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   height: 36px;
   width: auto;
   object-fit: contain;
-  filter: brightness(0) invert(1);
+  /* original colors */
 }
 .logo-item.logo-text {
   font-family: 'Barlow Condensed', sans-serif;
