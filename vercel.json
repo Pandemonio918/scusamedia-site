@@ -1,6 +1,16 @@
 {
   "buildCommand": "",
   "outputDirectory": ".",
+  "redirects": [
+    { "source": "/about", "destination": "/#who-we-serve", "permanent": true },
+    { "source": "/services", "destination": "/#services", "permanent": true },
+    { "source": "/get-started", "destination": "/#contact", "permanent": true },
+    { "source": "/contact", "destination": "/#contact", "permanent": true },
+    { "source": "/privacy", "destination": "/legal.html#privacy", "permanent": true },
+    { "source": "/terms", "destination": "/legal.html#terms", "permanent": true },
+    { "source": "/privacy-policy", "destination": "/legal.html#privacy", "permanent": true },
+    { "source": "/terms-of-service", "destination": "/legal.html#terms", "permanent": true }
+  ],
   "routes": [
     { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/index.html" }
