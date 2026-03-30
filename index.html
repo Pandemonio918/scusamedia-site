@@ -45,6 +45,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>S</text></svg>">
 </head>
 <body>
@@ -83,11 +84,7 @@
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-bg">
-      <div class="orb orb-1"></div>
-      <div class="orb orb-2"></div>
-      <div class="grid-bg"></div>
-    </div>
+    <div class="hero-bg" id="dotted-surface"></div>
     <div class="container hero-content">
       <div class="chip"><span class="chip-dot"></span>Revenue Systems Agency</div>
       <h1 class="display-xl fade-up">We Build Revenue Systems<br>That Actually Scale.</h1>
@@ -951,5 +948,6 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="dotted-surface.js"></script>
 </body>
 </html>
