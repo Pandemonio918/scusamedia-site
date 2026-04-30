@@ -1,0 +1,59 @@
+# Scusa Media
+
+> Detroit-based revenue systems agency. We help service-based and online businesses generate consistent, trackable revenue by integrating CRM automation, paid advertising, and conversion-focused content into one connected system.
+
+## Quick Facts
+
+- **Company:** Scusa Media LLC
+- **Location:** Detroit, Michigan, United States
+- **Founded:** 2023
+- **Industries served:** Service-based businesses (construction, agencies, consultants, local services), online businesses (e-commerce, course creators, coaches), hospitality, financial services
+- **Active client ad accounts managed:** 15+
+- **Tracked client revenue generated:** $2.4M+
+- **Average client return on ad spend:** 4.8x
+- **Businesses scaled:** 50+
+- **Contact:** info@scusamedia.com · +1 (586) 800-3734
+
+## What Scusa Media Does
+
+Scusa Media builds complete revenue systems — not isolated tactics. Every engagement integrates four pillars:
+
+1. **CRM Automation** — Centralized lead capture, automated follow-up sequences (email + SMS), pipeline tracking, and reporting via GoHighLevel.
+2. **Paid Advertising** — Meta (Facebook/Instagram) and Google ad campaigns built around revenue attribution, not vanity metrics. Includes creative production, audience targeting, and ongoing optimization.
+3. **Lead Generation** — Landing pages, funnels, and conversion-focused content engineered to turn ad clicks into booked appointments and closed deals.
+4. **Content Creation** — Social-media campaigns and video content with measurable business outcomes, not just engagement.
+
+The differentiator: every piece works together. Ad spend feeds the CRM, the CRM feeds the follow-up sequences, the sequences feed the sales pipeline, and the entire system reports back on revenue per dollar spent.
+
+## Pages
+
+- [Home](https://scusamedia.com/): Services, case studies, process, and contact
+- [Legal](https://scusamedia.com/legal.html): Privacy policy and terms of service
+- [Sitemap](https://scusamedia.com/sitemap.xml)
+
+## Case Studies (selected results)
+
+- **Premier Spirits / Online brand:** 305% sales growth, 7.59x ROAS, conversion rate lifted from 1.33% to 3.12%.
+- **Sterling Construction:** 20% revenue increase, more booked jobs, stronger brand presence after rebuilding their digital lead flow.
+- **Roofing client:** Dead pipeline to $100K+ in new job opportunities within 48 hours of launching the system.
+- **Premium spirits brand (B2B-only):** 125% sales growth into Marriott, Hilton, and Cambria, with FOX 17 coverage and zero ad spend (pure content + B2B outreach).
+- **Detroit Auto Show, Nike, Mike Posner, Wentworth Real Estate, Premier Paving, Beautiful Machine Magazine, DCFC West, Salvation Army, Braun Construction, Superfeet, Upper Cutz** — additional clients spanning consumer, hospitality, real estate, and nonprofit.
+
+## Frequently Asked Questions
+
+- **What types of businesses do you work with?** Service-based businesses (construction, agencies, consultants, local services) and online businesses (e-commerce, course creators, coaches).
+- **How long does it take to see results?** Most clients see initial results within 30 days. Full system optimization typically takes 60-90 days.
+- **What's included in a revenue system?** CRM setup and automation, paid advertising, landing pages and funnels, email/SMS follow-up sequences, analytics dashboards, and ongoing optimization.
+- **How much does it cost?** Custom-quoted after a free 30-minute consulting call. Flexible engagement models — no long-term contracts required.
+- **Do you require long-term contracts?** No. Minimum 90-day engagement recommended to see meaningful results, but clients can leave at any time.
+- **What makes Scusa Media different?** We build complete revenue systems where every piece (CRM, ads, content, automation) works together and is tracked against actual revenue, not vanity metrics.
+
+## Tech Stack
+
+GoHighLevel (CRM), Meta Ads Manager, Google Ads, Vercel (deployments), proprietary content production pipeline.
+
+## Social
+
+- LinkedIn: https://www.linkedin.com/company/scusa-media
+- Instagram: https://www.instagram.com/scusamedia/
+- Facebook: https://www.facebook.com/people/Scusa-Media/100095315376062/
